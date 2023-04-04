@@ -1,7 +1,7 @@
 import calendar as cal
 day={0:'MONDAY',1:'TUESDAY',2:'WEDNESDAY',3:'THURSDAY',4:'FRIDAY',5:'SATURDAY',6:'SUNDAY'}
 n=list(map(int,input().split()))
-
+# the inout should be in the format of MM DD YYYY
 if n[2] in range(2001,3000):
     n1=cal.weekday(n[2],n[0],n[1])
     for i in day:
