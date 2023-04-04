@@ -1,3 +1,5 @@
+#this shows the current time in a floating window
+
 from tkinter import *
 from tkinter.ttk import *
 
