@@ -15,5 +15,8 @@ def print_rangoli(size):
             row[size-1+j]=alphabet[j+i]
         print('-'.join(row))
 if __name__ == '__main__':
+    #some versions of pt=ython don't support raw_input
+    #for that use
+    #n = int(input())
     n = int(raw_input())
     print_rangoli(n)
